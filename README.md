@@ -1,4 +1,4 @@
-# Data Collection and Preparation
+# Data Collection and Preparation / Database and SQL
 ## Mutual Fund Data
 # Overview 
 This project consisted of collecting, cleaning and preparing data from three different sources: a flat file, a website (collected by scraping the website), and an API.  The cleaning of the data utilized pandas DataFrame.  The final product included joining all three sources on the same key by storing them in a SQLite database.
@@ -48,11 +48,11 @@ Source:  FMP Finance API:  https://financialmodelingprep.com/developer/docs/
 * Replace missing values
 * Create new Series with calculated values
 
-**Part 4 – Database**
+**Part 4 – Database and SQL**
 
 •	Demonstrated the following:
 * Creating a SQLite database
 * Creating three separate tables
 * Performing a left outer join to combine all three tables
-
+* Executing SQL commands to create simple visualizations
 
